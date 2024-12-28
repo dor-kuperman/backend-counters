@@ -1,0 +1,15 @@
+.counterBox {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  .buttonsBox {
+    display: flex;
+    justify-content: space-between;
+
+    .button {
+      border: 1px solid black;
+      width: fit-content;
+      border-radius: 50px;
+    }
+  }
+}
